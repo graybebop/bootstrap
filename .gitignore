@@ -40,7 +40,7 @@ pnpm-debug.log*
 #/src
 
 # Exclude public folder in the root directory
-/public
+#/public
 
 # Ignore all .json and .js files in the 03-bootstrap directory
 #/*.json

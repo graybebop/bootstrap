@@ -3,8 +3,9 @@ import menusTotal from "@/js/menus/menu-totals.js";
 import router from "@/js/router";
 
 import "./assets/scss/styles.scss";
+import "bootstrap/dist/css/bootstrap.css";
 
-const EP_COMPONENTS = ["EpButton", "EpFormRow", "EpLabel", "EpOptionButton", "EpFormInput", "EpFormInputButton"];
+const EP_COMPONENTS = ["EpButton", "EpFormRow", "EpLabel", "EpOptionButton", "EpFormInput", "EpFormInputButton", "mytpButton", "mytpFormInput"];
 
 function loadEpComponents(app) {
 	try {

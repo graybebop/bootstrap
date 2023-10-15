@@ -1,5 +1,5 @@
 <template>
-	<div class="custom-component">
+	<div class="container">
 		<slot name="header"></slot>
 
 		<!-- 나머지 컨텐츠 -->

@@ -1,5 +1,5 @@
 <template>
-	<button type="button" class="button" :class="onFormatSizeDisabled" :disabled="isDisable" :readonly="isReadonly" @click="onClick">
+	<button type="button" class="btn" :class="onFormatSizeDisabled" :disabled="isDisable" :readonly="isReadonly" @click="onClick">
 		<span v-if="hasLabel">{{ label }}</span>
 		<i :class="onIcon"></i>
 	</button>
