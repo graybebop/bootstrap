@@ -1,0 +1,133 @@
+// ##########################################################################################
+// layout
+// ##########################################################################################
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.l-wrap {
+  height: 100%;
+  min-width: 100%;
+}
+
+.l-container {
+  height: calc(100% - 60px);
+  padding: 10px 0 0 60px;
+}
+
+// ##########################################################################################
+// Header
+// ##########################################################################################
+.l-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 60px;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 0px solid #dce525;
+  background-color: #fff;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+
+  .cur-title {
+    color: #EA002C;
+
+    font-size: 18px;
+    font-weight: 600
+  }
+
+  h1 {
+    a {
+      display: block;
+    }
+  }
+
+  .l-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    button {
+      width: 24px;
+      height: 24px;
+
+      i {
+        padding: 0;
+        color: #b0baba;
+        font-size: 22px;
+      }
+
+      .icon-person {
+        width: 22px;
+        height: 22px;
+        padding-top: 4px;
+        color: 20px;
+        background-color: #b7d8d6;
+        border-radius: 50%;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+    }
+
+    .button-wrap {
+      height: 24px;
+
+      button {
+        margin: 0;
+      }
+
+
+    }
+  }
+}
+
+.l-form {
+  display: grid;
+  align-items: end;
+  column-gap: 20px;
+  row-gap: 10px;
+
+  .form-row {
+    display: flex;
+    gap: 0 10px;
+  }
+}
+
+.form-row {
+  display: flex;
+  gap: 0 10px;
+}
+
+
+// ##########################################################################################
+// hr
+// ##########################################################################################
+
+
+hr {
+  margin: 10px 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #dce5e5
+}
+
+
+.form-row+hr {
+  margin: 0;
+}
+
+
+.l-form {
+  display: grid;
+  align-items: end;
+  column-gap: 20px;
+  row-gap: 10px;
+
+  .form-row {
+    display: flex;
+    gap: 0 10px;
+  }
+}

@@ -1,0 +1,47 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: solid rgba(0, 0, 0, .125);
+
+  width: 18rem;
+  /* 추가된 스타일 */
+}
+
+.card-body {
+  flex-grow: 1;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  font-size: 1.25rem;
+  /* 추가된 스타일 */
+}
+
+.card-subtitle {
+  margin-top: -.375rem;
+  margin-bottom: -.75rem;
+  color: #6c757d;
+  /* 추가된 스타일 */
+}
+
+.card-text:last-child {
+  margin-bottom: .75rem;
+}
+
+.card-link {
+  color: #007bff;
+  /* 추가된 스타일 */
+  text-decoration: none;
+  /* 추가된 스타일 */
+
+  &:hover {
+    text-decoration: underline;
+    /* 추가된 스타일 */
+  }
+}
